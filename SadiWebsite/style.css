@@ -1,0 +1,89 @@
+body{    
+    text-align: center;
+    background: #acd8fd;
+}
+#charts{
+    height:300px;
+    background-color: white;
+    
+}
+p,a{
+    text-align:left;
+}
+p,a,table,h1,h2{
+    font-family: "Times New Roman", Times, serif;
+    background: #cae7f8;
+    color: #33485a;
+}
+a{
+    color:maroon;
+    text-decoration: none;
+}
+a:hover{
+    font-weight:900;
+    color:#e63e00;
+}    
+table,h1,h2{
+    text-align: center;
+}
+h3{
+  font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    text-align:left;
+    position:absolute; 
+    top:20px;
+    right:260px;
+}
+path:hover{
+    fill: #cae7f8;
+}
+td{
+    outline-color: #acd8fd;
+    outline-width:2px;
+    outline-style: groove;
+}
+td:hover{
+    outline-color: #acd8fd;
+    outline-width:6px;
+    outline-style: groove;
+}
+iframe{
+    border-width:5px;
+    border-color: #cae7f8;
+    z-index:20; 
+    background-color: #FFFFFFAA;
+    position:absolute; 
+    top:50px; 
+    right:-90px;
+    transform: scale(0.75, 0.75);
+    width: 800px; 
+    height: 315px;
+}
+.bold{
+    font-weight: bold;
+}
+#placement{
+    background:rgba(0,0,0,0);
+    position: absolute;
+    left:-200px;
+    top: 185px;
+}
+#key{
+    align-self: right;
+    position: absolute;
+    top:950px;
+    left:800px;
+}
+#table{
+    position: absolute;
+    top:1100px;
+    width:100%;
+    align-self: center;
+}
+#headText{
+    z-index:10; 
+    position: absolute; 
+    top: 40;
+    left:30;
+    width:500px;
+}
